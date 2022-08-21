@@ -1,0 +1,17 @@
+[package]
+name = "moeve"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "^3.2", features = ["derive"] }
+rusqlite = { version = "0.28.0", features = ["bundled"] }
+# rstest = "^0.15"
+# insta = "^1.17"
+anyhow = "^1.0"
+log = "^0.4"
+fern = "^0.6"
+chrono = "^0.4"
+comfy-table = "6.0.0"
+rand = "0.8"
+chrono-humanize = "0.2.2"
